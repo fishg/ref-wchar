@@ -1,10 +1,10 @@
 {
   "name": "ref-wchar",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "A ref \"type\" implementation of `wchar_t *` (a.k.a. wide string) backed by \"node-iconv\"",
   "main": "index.js",
   "scripts": {
-    "test": "node-gyp rebuild --directory test && mocha -gc --reporter spec"
+    "test": "node-gyp rebuild --directory test && mocha -gc-global --expose-gc --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "bindings": "~1.2.0",
-    "mocha": "2",
+    "mocha": "6",
     "nan": "2"
   }
 }
