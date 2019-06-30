@@ -33,8 +33,8 @@
     "ref": "fishg/ref#node-12"
   },
   "devDependencies": {
-    "bindings": "~1.2.0",
-    "mocha": "6",
+    "bindings": "^1.5.0",
+    "mocha": "*",
     "nan": "2"
   }
 }
