@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:TooTallNate/ref-wchar.git"
+    "url": "git@github.com:fishg/ref-wchar.git"
   },
   "keywords": [
     "ref",
@@ -35,6 +35,6 @@
   "devDependencies": {
     "bindings": "^1.5.0",
     "mocha": "*",
-    "nan": "2"
+    "nan": "^2.13.2"
   }
 }
